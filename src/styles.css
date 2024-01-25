@@ -1,0 +1,39 @@
+html,body{
+    height: 100%;
+    background-color: #E8D8C4;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    
+  
+    
+}
+
+nav{
+  display: flex;
+  margin-right: 50px;
+  gap: 50px;
+}
+
+nav button{
+    width: 100px;
+    height: 50px;
+}
+
+
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 200px;
+}
+#content img{
+    height: 500px;
+    width: 500px;
+}
+
+#content p{
+    width: 400px;
+}
