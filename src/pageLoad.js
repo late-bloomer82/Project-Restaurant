@@ -1,8 +1,9 @@
-import aboutUrl from './images/40fd567d8c7e9a23e587b0c887ac4f91.jpg';
-import bentoUrl from './images/94fa6bc486ab8b54764842ea55c17658.jpg';
-import kidUrl from './images/976c5e7ac2c16219097e01688404af85.jpg';
-import healthyUrl from './images/31682bd04808f6e5d5b06011dc076f1a.jpg';
-import classicUrl from './images/e85d5ca86f4a369b8e4ef6322981f1aa.jpg';
+import aboutUrl from '../dist/images/40fd567d8c7e9a23e587b0c887ac4f91.jpg';
+import bentoUrl from '../dist/images/94fa6bc486ab8b54764842ea55c17658.jpg';
+import kidUrl from '../dist/images/976c5e7ac2c16219097e01688404af85.jpg';
+import healthyUrl from '../dist/images/31682bd04808f6e5d5b06011dc076f1a.jpg';
+import classicUrl from '../dist/images/e85d5ca86f4a369b8e4ef6322981f1aa.jpg';
+
 
 const mainContainer = document.getElementById('content');
 export {loadContent};
