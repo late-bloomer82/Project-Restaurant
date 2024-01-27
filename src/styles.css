@@ -26,8 +26,8 @@ nav button{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    gap: 200px;
+   
+    
 }
 #content img{
     height: 500px;
@@ -37,3 +37,4 @@ nav button{
 #content p{
     width: 400px;
 }
+
