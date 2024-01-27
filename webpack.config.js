@@ -15,7 +15,7 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-              outputPath: '', // 
+              outputPath: 'images', // Output path within the 'dist' directory
             },
           },
         ],
