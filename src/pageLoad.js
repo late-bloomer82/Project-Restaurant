@@ -1,8 +1,8 @@
 import  aboutUrl from './aboutImage.jpg';
 import  bentoUrl from './bento.jpg';
 import  kidUrl from './kidBento.jpg';
-import  healthyUrl from './healthyBentoBox.jpg';
-import  classicUrl from './classicBentoBox.jpg';
+import  healthyUrl from './healthyBento.jpg';
+import  classicUrl from './classicBento.jpg';
 
 const mainContainer = document.getElementById('content');
 export {loadContent};
