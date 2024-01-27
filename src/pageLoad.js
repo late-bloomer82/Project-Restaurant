@@ -1,3 +1,8 @@
+import  aboutUrl from './aboutImage.jpg';
+import  bentoUrl from './bento.jpg';
+import  kidUrl from './kidBento.jpg';
+import  healthyUrl from './healthyBentoBox.jpg';
+import  classicUrl from './classicBentoBox.jpg';
 
 const mainContainer = document.getElementById('content');
 export {loadContent};
@@ -16,7 +21,7 @@ function loadContent(){
     leftSide.appendChild(restaurantHeader);
 
     const bentoImg = document.createElement('img');
-    bentoImg.src = '../src/bento.jpg';
+    bentoImg.src = bentoUrl;
     leftSide.appendChild(bentoImg);
 
     const paragraph = document.createElement('p');
@@ -46,7 +51,7 @@ function createMenu(){
     const kidContainer = document.createElement('div')
     kidContainer.className = 'dishContainer'
     const kidBox = document.createElement('img');
-    kidBox.src = '../src/kidBento.jpg';
+    kidBox.src = kidUrl;
     kidBox.style.width = '350px';
     kidBox.style.height = '400px';
 
@@ -64,7 +69,7 @@ function createMenu(){
     const classicContainer = document.createElement('div')
     classicContainer.className = 'dishContainer'
     const classicBox = document.createElement('img');
-    classicBox.src = '../src/classicBentoBox.jpg';
+    classicBox.src = classicUrl;
     classicBox.style.width = '350px';
     classicBox.style.height = '400px';
 
@@ -82,7 +87,7 @@ function createMenu(){
     const healthyContainer = document.createElement('div')
     healthyContainer.className = 'dishContainer'
     const healthyBox = document.createElement('img');
-    healthyBox.src = '../src/healthyBentoBox.jpg';
+    healthyBox.src = healthyUrl;
     healthyBox.style.width = '350px';
     healthyBox.style.height = '400px';
 
@@ -115,7 +120,7 @@ function createAbout(){
     mainContainer.innerHTML = '';
 
     const aboutImage = document.createElement('img');
-    aboutImage.src = '../src/aboutImage.jpg';
+    aboutImage.src = aboutUrl;
 
     aboutImage.style.width = '400px';
     aboutImage.style.height = '400px';
