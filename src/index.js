@@ -1,6 +1,8 @@
 import { loadContent } from "./pageLoad";
 import { createMenu } from "./pageLoad";
 import { createAbout } from "./pageLoad";
+import './styles.css';
+
 
 
 const homeButton = document.getElementById('home');
